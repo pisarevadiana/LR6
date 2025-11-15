@@ -17,7 +17,7 @@ void fillContainer(Container& cont, size_t count) {
     std::uniform_int_distribution<> dis(-100, 100);
     auto randval = [&gen, &dis]() { return dis(gen); };
 
-    for (size_t i = 0; i < count; ++i) {
+    for (size_t i = 1; i < count; ++i) {
         cont.insert(cont.end(), randval());
     }
 }
