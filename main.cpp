@@ -10,7 +10,6 @@
 using namespace std;
 
 // комментарий
-// второй комментарий
 // Шаблонная функция для заполнения контейнера случайными числами
 template<typename Container>
 void fillContainer(Container& cont, size_t count) {
